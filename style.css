@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+
+    padding: 30px;
+        /* background-image: url(./image/anh01.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        */
+    }
+
+.heading{
+    text-align: center;
+    color: #3071aa;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.panel-group{
+    padding-top: 30px;
+}
+/* login */
+.login_page{
+    background-image: url('./image/hinh-nen-may-tinh-4k-4.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+form {border: 3px solid #f1f1f1;}
+
+.login_container{
+    background-color: #fff;
+    padding: 20px;
+}
+
+.login_container_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.login_container_header .login_signin{
+    text-decoration: none;
+}
+
+.login_container_header .login_signin:hover{
+    color: #0239a1;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  
+  }
+
+.heading_login{
+    font-size: 24px;
+    color: #0239a1;
+}
+
+.login{
+    margin: 20px 0;
+}
+
+.login button{
+    background-color: #0239a1;
+    margin-left: 40%;
+    padding: 8px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.login button:focus{
+}
+
+.btn_submit:hover{
+    background-color: #2d67d4;
+    cursor: pointer;
+}
+
+.btn-success{
+ 
+}
+
+.logout{
+    display: flex;
+    justify-content: center;
+}
